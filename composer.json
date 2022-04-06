@@ -1,0 +1,37 @@
+{
+    "name": "akyos/web-push",
+    "type": "symfony-notifier-bridge",
+    "description": "Symfony WebPush Notifier Bridge",
+    "keywords": ["webpush", "notifier"],
+    "homepage": "https://symfony.com",
+    "license": "proprietary",
+    "authors": [
+		{
+			"name": "Lilian Carneau",
+			"email": "lilian@akyos.com"
+		},
+		{
+			"name": "Johan JOULKVA",
+			"email": "johan@akyos.com"
+		},
+		{
+			"name": "Thomas Sebert",
+			"email": "thomas@akyos.com"
+		}
+	],
+    "require": {
+        "php": ">=8.0.2",
+        "minishlink/web-push": "^7.0",
+        "symfony/http-client": "^5.4|^6.0",
+        "symfony/notifier": "^5.4|^6.0"
+    },
+    "require-dev": {
+        "symfony/event-dispatcher": "^5.4|^6.0"
+    },
+    "autoload": {
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
