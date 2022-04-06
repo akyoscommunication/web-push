@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Transport\WebPushTransport;
+namespace Akyos\WebPush\Transport\WebPushTransport;
 
 use Exception;
 use Minishlink\WebPush\WebPush;

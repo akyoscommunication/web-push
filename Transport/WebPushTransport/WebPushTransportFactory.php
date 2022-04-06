@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Transport\WebPushTransport;
+namespace Akyos\WebPush\Transport\WebPushTransport;
 
 use Symfony\Component\Notifier\Transport\Dsn;
 use Symfony\Component\Notifier\Transport\TransportInterface;

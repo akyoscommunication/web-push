@@ -29,6 +29,7 @@
         "symfony/event-dispatcher": "^5.4|^6.0"
     },
     "autoload": {
+        "psr-4": { "Akyos\\WebPush\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]

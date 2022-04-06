@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Recipient;
+namespace Akyos\WebPush\Recipient;
 
 use Symfony\Component\Notifier\Recipient\RecipientInterface;
 use Symfony\Component\Notifier\Exception\InvalidArgumentException;

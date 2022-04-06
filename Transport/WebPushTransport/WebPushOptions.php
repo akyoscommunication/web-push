@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Transport\WebPushTransport;
+namespace Akyos\WebPush\Transport\WebPushTransport;
 
-use App\Notifier\PushNotification;
+use Akyos\WebPush\Notifier\PushNotification;
 use Symfony\Component\Notifier\Notification\Notification;
 use Symfony\Component\Notifier\Message\MessageOptionsInterface;
 
