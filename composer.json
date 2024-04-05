@@ -22,11 +22,11 @@
     "require": {
         "php": ">=8.0.2",
         "minishlink/web-push": "^7.0",
-        "symfony/http-client": "^5.4|^6.0",
-        "symfony/notifier": "^5.4|^6.0"
+        "symfony/http-client": "^5.4|^6.0|^7.0|^7.1",
+        "symfony/notifier": "^5.4|^6.0|^7.0|^7.1"
     },
     "require-dev": {
-        "symfony/event-dispatcher": "^5.4|^6.0"
+        "symfony/event-dispatcher": "^5.4|^6.0|^7.0|^7.1"
     },
     "autoload": {
         "psr-4": { "Akyos\\WebPush\\": "" },
